@@ -1,2 +1,38 @@
 # data-analyst-portfolio
-4 Real-World Data Analysis Projects using Python, Pandas, SQL | HR Data Cleaning, Sales Dashboard, Car Market Analysis
+ Real-World Data Analysis 
+Sales Data Analysis Project
+
+# Sales Data Analysis Project
+
+تحليل بيانات مبيعات بسيط باستخدام Python و Pandas و Matplotlib. 
+المشروع جزء من بورتفوليو تعلم تحليل البيانات.
+
+## الهدف
+استكشاف بيانات المبيعات، حساب الإيرادات، واستخراج أهم الرؤى اللي تساعد في اتخاذ قرارات تسويقية.
+
+## الأدوات المستخدمة
+- **Python 3**
+- **Pandas** - لمعالجة وتحليل البيانات
+- **Matplotlib** - للرسم البياني
+- **Google Colab** - للتشغيل
+
+## الخطوات اللي سويتها
+1. رفع البيانات وتنظيفها
+2. إنشاء عمود `revenues = quantity * price`
+3. تجميع البيانات حسب الفئة باستخدام `groupby`
+4. رسم بياني شريطي لأعلى الفئات مبيعاً
+5. كتابة 3 رؤى وتوصية نهائية
+
+## أهم النتائج
+- **Electronics** هي أعلى فئة بالإيرادات.
+- أعلى 5 فئات تشكل أكثر من 80% من المبيعات.
+- فئات مثل Food و Pets تحتاج مراجعة بسبب ضعف المبيعات.
+
+## التوصية
+التركيز على التسويق لـ Electronics و Kitchen، وإعادة تقييم الفئات ضعيفة الأداء.
+
+## تشغيل المشروع
+افتح الملف `sales-analysis.ipynb` مباشرة في Google Colab وشغّل الخلايا بالترتيب.
+
+---
+*تم إنشاء هذا المشروع أثناء تعلم تحليل البيانات في 2026*
