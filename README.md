@@ -1,38 +1,31 @@
-# data-analyst-portfolio
- Real-World Data Analysis 
-Sales Data Analysis Project
+# Data Analyst Portfolio
 
-# Sales Data Analysis Project
+أهلاً! أنا عبدالرزاق، محلل بيانات. هذا البورتفوليو يجمع 4 مشاريع عملية باستخدام Python و SQL و Excel.
 
-تحليل بيانات مبيعات بسيط باستخدام Python و Pandas و Matplotlib. 
-المشروع جزء من بورتفوليو تعلم تحليل البيانات.
+## المشاريع
 
-## الهدف
-استكشاف بيانات المبيعات، حساب الإيرادات، واستخراج أهم الرؤى اللي تساعد في اتخاذ قرارات تسويقية.
+### 1. HR Employee Attrition Analysis
+تحليل أسباب استقالة الموظفين باستخدام بيانات IBM.
+- **الأدوات**: Python, Pandas, Matplotlib, Seaborn
+- **المجلد**: [HR-Employee-Attrition-Analysis](./HR-Employee-Attrition-Analysis)
 
-## الأدوات المستخدمة
-- **Python 3**
-- **Pandas** - لمعالجة وتحليل البيانات
-- **Matplotlib** - للرسم البياني
-- **Google Colab** - للتشغيل
+### 2. HR Data Cleaning E2E
+عملية تنظيف بيانات HR من الصفر إلى الجاهزية للتحليل.
+- **الأدوات**: Python, Pandas
+- **المجلد**: [04-hr-data-cleaning](./04-hr-data-cleaning)
 
-## الخطوات اللي سويتها
-1. رفع البيانات وتنظيفها
-2. إنشاء عمود `revenues = quantity * price`
-3. تجميع البيانات حسب الفئة باستخدام `groupby`
-4. رسم بياني شريطي لأعلى الفئات مبيعاً
-5. كتابة 3 رؤى وتوصية نهائية
+### 3. Sales Data Analysis
+تحليل بيانات المبيعات لاستخراج الرؤى وتحسين القرارات التسويقية.
+- **الأدوات**: Python, Pandas, Matplotlib
+- **الملف**: [sales-analysis.ipynb](./sales-analysis.ipynb)
 
-## أهم النتائج
-- **Electronics** هي أعلى فئة بالإيرادات.
-- أعلى 5 فئات تشكل أكثر من 80% من المبيعات.
-- فئات مثل Food و Pets تحتاج مراجعة بسبب ضعف المبيعات.
+### 4. Amazon Reviews Analysis
+تحليل تقييمات أمازون واستخراج المشاعر والكلمات المفتاحية.
+- **الأدوات**: Python, Pandas, NLTK
+- **المجلد**: [Amazon-Reviews-Analysis](./Amazon-Reviews-Analysis)
 
-## التوصية
-التركيز على التسويق لـ Electronics و Kitchen، وإعادة تقييم الفئات ضعيفة الأداء.
-
-## تشغيل المشروع
-افتح الملف `sales-analysis.ipynb` مباشرة في Google Colab وشغّل الخلايا بالترتيب.
-
----
-*تم إنشاء هذا المشروع أثناء تعلم تحليل البيانات في 2026*
+## المهارات
+- Data Cleaning & EDA
+- Data Visualization
+- SQL & Excel
+- Python for Data Analysis
